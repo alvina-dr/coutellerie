@@ -3,6 +3,7 @@ nav {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
+    position: absolute;
 }
 
 .header {
@@ -18,4 +19,8 @@ nav {
     color: #DDC3A5;
     font-family: Charm;
     font-size: 25px;
+}
+
+.burger {
+    margin-left: 30px;
 }

@@ -66,6 +66,12 @@
         margin: 0;
         padding: 0;
     }
+    
+    .include_footer {
+        height: 400px;
+        position: relative;
+        margin-top: 50px;
+    }
     /*IMPORTATION HTML DANS UN AUTRE FICHIER FIN*/
     /*CASES -----------------*/
     
