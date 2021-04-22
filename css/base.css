@@ -1,9 +1,56 @@
-html {
-    width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+body {
     height: 100%;
+    margin: 0;
+    background-color: #201E20;
 }
 
-body {
+
+/*POLICES -------------------------------------*/
+
+h1 {
+    font-family: Charm;
+    font-size: 35px;
+    color: #DDC3A5;
+    font-weight: 400;
+}
+
+
+/*IMPORTATION HTML DANS UN AUTRE FICHIER*/
+
+.include {
+    /*importation d'un bout d'html*/
+    border: none;
     width: 100%;
-    height: 100%;
+}
+
+.fix {
+    position: fixed;
+    z-index: 5;
+}
+
+.ft {
+    background-color: #0d0d0d00;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*IMPORTATION HTML DANS UN AUTRE FICHIER FIN*/
+
+
+/*CASES -----------------*/
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.space {
+    width: 100%;
+    height: 100px;
 }
