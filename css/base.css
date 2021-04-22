@@ -27,8 +27,16 @@ h2 {
 h3 {
     font-family: Montserrat;
     color: #DDC3A5;
+    font-weight: 500;
+    margin: 0;
+}
+
+p {
+    font-family: Montserrat;
+    color: #DDC3A5;
     font-weight: 400;
     margin: 0;
+    font-size: 15px;
 }
 
 
@@ -79,4 +87,15 @@ h3 {
 .column_space {
     height: 100%;
     width: 50px;
+}
+
+.btn_savoirplus {
+    padding: 10px;
+    border-color: #E0A96D;
+    border: 3px;
+    text-decoration: none;
+    color: #E0A96D;
+    font-family: Montserrat;
+    margin: 0;
+    width: auto;
 }
