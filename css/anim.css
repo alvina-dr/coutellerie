@@ -28,6 +28,7 @@
     overflow: hidden;
     filter: grayscale(0);
     transition: filter 0.5s ease;
+    filter: grayscale(1);
 }
 
 .cards__wrapper .card__image {
@@ -87,8 +88,8 @@
     transform: translateY(0%);
 }
 
-.cards__wrapper:hover>.card:not(:hover) .card__image--wrapper {
-    filter: grayscale(1);
+.cards__wrapper .card__image--wrapper:hover {
+    filter: grayscale(0);
 }
 
 .cards__wrapper:hover>.card:not(:hover) .card__image {
