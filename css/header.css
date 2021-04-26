@@ -12,6 +12,7 @@ nav {
 }
 
 .site_name {
+    position: fixed;
     align-self: center;
     text-align: center;
     width: 100%;
